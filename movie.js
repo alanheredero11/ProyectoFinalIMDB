@@ -11,9 +11,9 @@ var Movie = /** @class */ (function () {
     Movie.prototype.printAll = function () {
         console.log("\n Title - " + this.title +
             "\n Release Year - " + this.releaseYear +
-            // "\n Actors - " + this.actors +
+            "\n Actors - " + this.actors +
             "\n Nacionality - " + this.nacionality +
-            // "\n Director - " + this.director +
+            "\n Director - " + this.director +
             "\n Lenguage - " + this.lenguage +
             "\n Plataforma - " + this.plataforma +
             "\n isMCU - " + this.isMCU +
@@ -25,4 +25,3 @@ var Movie = /** @class */ (function () {
     return Movie;
 }());
 exports.Movie = Movie;
-   

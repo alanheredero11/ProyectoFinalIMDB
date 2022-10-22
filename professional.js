@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.Professional = void 0;
 var Professional = /** @class */ (function () {
     function Professional(name, age, weight, height, isRetired, nationality, oscarsNumber, profession) {

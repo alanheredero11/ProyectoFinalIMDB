@@ -1,12 +1,12 @@
-
+import { Professional } from "./professional";
 
 export class Movie
 {
     public title: string;
     public releaseYear: number;
-    // public actors: Professional[];
+    public actors: Professional[];
     public nacionality: string;
-    // public director: Professional; 
+    public director: Professional; 
     public lenguage: string; 
     public plataforma: string; 
     public isMCU: boolean; 
@@ -29,9 +29,9 @@ export class Movie
         console.log(
                     "\n Title - " + this.title +
                     "\n Release Year - " + this.releaseYear +
-                    // "\n Actors - " + this.actors +
+                    "\n Actors - " + this.actors +
                     "\n Nacionality - " + this.nacionality +
-                    // "\n Director - " + this.director +
+                    "\n Director - " + this.director +
                     "\n Lenguage - " + this.lenguage +
                     "\n Plataforma - " + this.plataforma +
                     "\n isMCU - " + this.isMCU +

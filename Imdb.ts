@@ -1,4 +1,5 @@
 import { Movie } from "./movie"
+import { Professional } from "./professional";
 
 
 export class Imdb
