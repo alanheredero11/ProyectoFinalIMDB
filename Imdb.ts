@@ -9,4 +9,4 @@ export class Imdb
     {
         this.movies = movies;
     }
-}
+}   

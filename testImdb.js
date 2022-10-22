@@ -7,5 +7,3 @@ var movie2 = new movie_1.Movie("Intocable", 2014, "France", "Dranma");
 var movie3 = new movie_1.Movie("Intocable", 2014, "France", "Dranma");
 var movie4 = new movie_1.Movie("Intocable", 2014, "France", "Dranma");
 var Imdb1 = new Imdb_1.Imdb([movie1, movie2, movie3, movie3]);
-console.log(Imdb1);
-Imdb1.movies[1].printAll();

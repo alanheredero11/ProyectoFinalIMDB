@@ -41,3 +41,4 @@ export class Movie
                     "\n Genre - " + this.genre);
     }
 }
+    
